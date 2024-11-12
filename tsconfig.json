@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "es2017",
+    "module": "esnext",
+    "lib": ["es2017", "dom"],
+    "outDir": "./app/dist",
+    "rootDir": "./src",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "removeComments": true,
+    "noUnusedLocals": true,
+    "paths": {
+      "@tenoxui/core/full": ["./node_modules/@tenoxui/core/dist/tenoxui-full"]
+    }
+  },
+  "include": ["./src"],
+  "exclude": ["node_modules"]
+}
